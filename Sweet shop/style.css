@@ -1,0 +1,661 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    overflow: hidden; 
+}
+
+ #bg-img>img{ 
+    height: 200px;
+    z-index: 0;
+}
+
+#page {
+    position: relative;
+    width: 100vw
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 99;
+    left: 10%;
+    transform: translateX(-50%);
+    top: 3%;
+    border-radius: 20px;
+    height:63px;
+    width: 230px;
+    background-color: #000000;
+    backdrop-filter: blur(10px);
+    padding: 0px 5px;
+}
+
+#nav>img {
+    width: 63px;
+    position: relative;
+    left : 8px;
+    height: 63px;
+    border-radius: 50%;
+}
+  .navbar{
+   display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    margin-left: 170px;
+    position:relative;
+    left:25vw;
+    top: 140%;
+    font-weight: 800;
+}
+
+#center-nav>h1{ 
+ color: orange;
+ position: relative;
+ right: 18%;
+ font-size: 30px;
+}
+
+#center-nav>a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+#page1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color:#fffefb ;
+}
+
+#ladu{ 
+    height: 620px;
+    width:400px;
+    position: relative;
+    bottom:90vh;
+    left: 50vw;
+}
+
+#page1>h1 {
+    z-index: 99;
+    position: absolute;
+    left: 22%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+    color:orange;
+}
+
+#page1>img{ 
+    height: 640px;
+    width:400px;
+    position: relative;
+    opacity: 0.1;
+}
+
+#page2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 99;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+    background-color:rgb(248, 180, 55);
+}
+
+#page2>h1 { 
+    color: rgb(151, 23, 23);
+    position: relative;
+    bottom:15px;
+    right:20px;
+} 
+
+#img1{ 
+    height:220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+
+#img2{ 
+    height:220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#img3{ 
+    height:220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#img4{ 
+    height:220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+
+#img5{ 
+    height:220px;
+    width: 220px;
+    border-radius: 50%;
+    position: relative;
+    right:20px;
+    top:0vw;
+    margin-left: 50px;
+    top:40px;
+}
+
+#img6{ 
+    height:220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: relative;
+    right:13px;
+    top:40px;
+}
+
+#img7{ 
+    height:220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: relative;
+    top:40px;
+    right:5px;
+}
+
+#page3{ 
+    background-color:rgb(189, 184, 176);
+    height: 100vh;
+    width: 100vw;
+}
+
+h6{ 
+  position: relative;
+  right: 100px;
+  color: rgb(151, 23, 23);
+}
+
+.Ourteam{ 
+    color: #000000;
+    font-size: 4vw;
+    position: relative;
+    left: 45vw;
+    top: 9vw;
+}
+
+.card{ 
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right:45vw;
+    top: 2vw;
+}
+ 
+#n1{ 
+    font-size:30px;
+    position: relative;
+    top:22vw;
+    left: 5vw;
+ 
+}
+
+#card1{ 
+    height: 290px;
+    width:290px;
+    position: relative;
+    top: 50px;
+    background-image: url("chef.jpg");
+    background-size: cover;
+}
+
+#card2{ 
+    height: 290px;
+    width:290px;
+   
+    position: relative;
+    top: 50px;
+    background-image: url("chef2.jpg");
+    background-size: cover;
+}
+
+#card3{ 
+    height: 290px;
+    width:290px;
+    position: relative;
+    top: 50px;
+    background-image: url("chef3.jpg");
+    background-size: cover;
+}
+
+#card4{ 
+    height: 290px;
+    width:290px;
+    position: relative;
+    top: 50px;
+    background-image: url("chef4.jpg");
+    background-size: cover;
+}
+
+#page4{   
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width:100vw;
+}
+
+#page4>h2{ 
+    font-size:64px;
+    color: rgba(100, 10, 10, 0.822);
+    z-index: 6;
+    position: relative;
+    bottom: 11vw;
+    left: 49vw;
+}
+
+#page4>img{ 
+    height: 340px;
+    width: 300px;
+    position:relative;
+    top:196px;
+    left:180px;
+    z-index: 1;
+}
+
+#about{ 
+    height: 400px;
+   width:80vw;
+   background-color: rgb(252, 168, 12);
+   position:relative;
+   bottom: 250px;
+   left:10vw;
+  z-index:  0;
+  
+}
+
+#about>p{ 
+    height: 400px;
+    width: 600px;
+    position: relative;
+    top:136px;
+    left:30vw;
+    line-height: 33px;
+    font-size: 22px;
+}
+
+#page5{
+    background-color: rgb(241, 124, 14);
+    height: 100vh;
+    width: 100vw;
+}
+
+.customersays{ 
+    height: 400px;
+    width:400px;
+    background-color: #fffefb;
+    position:relative;
+    bottom: 12vw;
+    left: 36vw;
+    transform: rotate(40deg);
+    z-index: 0;
+}
+
+#page5>img{ 
+    height:280px;
+    width: 210px;
+    position: relative;
+    top:14vw;
+    left: 26vw;
+    z-index: 1;
+}
+
+.customersays>h4{ 
+      transform:rotate(-40deg) ;
+      color:rgba(100, 10, 10, 0.822); 
+      font-size: 33px;
+      font-weight: bolder;
+      position: relative;
+      top:79px;
+      margin-right: 95px;
+}
+
+.customersays>h6{ 
+    transform:rotate(-40deg) ;
+    color:rgba(0, 0, 0, 0.822); 
+    font-size: 23px;
+    font-weight: bolder;
+    position: relative;
+    top:2vw;
+    left:8.7vw;
+}
+
+.customersays>p{ 
+    transform:rotate(-40deg) ;
+    color:rgba(15, 41, 90, 0.822); 
+    font-size: 23px;
+    font-weight: bolder;
+    position: relative;
+    top:3vw;
+    left:8vw;
+}
+
+#page6{ 
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(224, 200, 168);
+}
+ 
+#m1{ 
+    height: 28vh;
+    width:20vw;
+    background-color: chocolate;
+    position: relative;
+    top:340px;
+}
+
+#m1>img{ 
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    position: relative;
+    left: 150px;
+    bottom: 8px;
+}
+
+#m1>h4{ 
+    font-size: 35px;
+    color: rgb(71, 51, 26);
+    position: relative;
+    bottom:15vw;
+    left: 28vw;
+}
+
+h4>#line{ 
+      background-color: rgb(233, 72, 43);
+      height:3px;
+      width:40px;
+}
+
+#para1{ 
+    position: relative;
+    bottom:20vw;
+    right:15vw;
+  
+}
+
+#m2{ 
+    height: 28vh;
+    width:20vw;
+    background-color: rgb(32, 52, 107);
+    position: relative;
+    bottom:2vw;
+    left:80vw;
+}
+
+#m2>h4{ 
+    font-size: 35px;
+    color: rgb(71, 51, 26);
+    position: relative;
+    bottom:15vw;
+    right: 20.6vw;
+}
+
+#m2>img{ 
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    position: relative;
+    right: 70px;
+    bottom: 11px;
+}
+
+#para2>p{ 
+    position: relative;
+    bottom:112vw;
+    left:0.2vw;
+    padding-right:80px;
+  
+}
+#para2{ 
+    position: relative;
+    bottom:20vw;
+    right:21vw;
+}
+
+p>span{ 
+    color: rgb(158, 25, 20);
+}
+
+ #page7{ 
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(224, 200, 168);
+ }
+
+ #m3{ 
+    height: 28vh;
+    width:20vw;
+    background-color: rgb(58, 34, 12);
+    position: relative;
+    top:340px;
+}
+
+#m3>img{ 
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    position: relative;
+    left: 150px;
+    bottom: 8px;
+}
+
+#m3>h4{ 
+    font-size: 35px;
+    color: rgb(71, 51, 26);
+    position: relative;
+    bottom:15vw;
+    left: 28vw;
+}
+
+#para3{ 
+    position: relative;
+    bottom:20vw;
+    right:15.2vw;
+}
+
+#m4{ 
+    height: 28vh;
+    width:20vw;
+    background-color: rgb(105, 17, 17);
+    position: relative;
+    bottom:195px;
+    left:78.7vw;
+    
+}
+
+#m4>img{ 
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    position: relative;
+    right: 100px;
+    bottom: 8px;
+    
+}
+
+#m4>h4{ 
+    font-size: 35px;
+    color: rgb(71, 51, 26);
+    position: relative;
+    bottom:13vw;
+    right: 29vw;
+}
+
+#para4{ 
+    position: relative;
+    bottom:242px;
+    right:72vw;
+}
+
+#page8{ 
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(255, 186, 36);
+}
+    
+
+#page9{ 
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(0, 0, 0);
+}
+
+#box1{ 
+    height: 60vh;
+    width:80vw;
+    background-color: rgb(255, 234, 234);
+    position: relative;
+    bottom:6vw;
+    left:10vw;
+    border-radius: 20px;
+    z-index: 0;
+ }
+
+ #page8>img{ 
+    height:270px;
+    position: relative;
+    left:13vw;
+    top: 18vw;
+    z-index: 1;
+ }
+ 
+p{
+    color: rgb(14, 15, 104);
+    font-size: 35px;
+    position:relative;
+    top:6vw;
+    left:43vw;
+  
+ }
+
+ h5{ 
+     font-size: 50px;
+     color:rgb(105, 17, 17) ;
+     position:relative;
+     top:10vw;
+     left:45vw;
+ } 
+
+ h3{ 
+    color: aliceblue;
+    position: relative;
+    left: 31.4vw;
+    top: 16vw;
+    font-size: 25px;
+}
+
+ .fa-solid { 
+    color: azure;
+    font-size: 40px;
+    position: relative;
+    left: 28vw;
+    top:7vw;
+}
+
+ #address>p{ 
+    color: azure;
+    font-size: 18px;
+    position: relative;
+    left: 48vw;
+    top:12vw;
+ }
+ 
+ .fa-envelope{ 
+    position: relative;
+    top:11.6vw;
+    left:27.5vw;
+ }
+
+ #email>p{ 
+    color: azure;
+    font-size: 19px;
+    position: relative;
+    left: 48vw;
+    top:14vw;
+ }
+
+ #call{ 
+    position: relative;
+    top:5vw;
+    left: 1vw;
+ }
+
+ .fa-phone{ 
+    position: relative;
+    top:11.3vw;
+    left:27.2vw;
+ }
+
+ #call>p{ 
+    position: relative;
+    top:14.3vw;
+    left:46.9vw;
+    color: azure;
+    font-size: 19px;
+ }
+
+ @media screen  and (max-width: 1024px){ 
+    #page{ 
+        width:100vw;
+       height: 100vh;
+    }
+
+    #page1{ 
+        width:100vw;
+        height: 100vh;
+    }
+    #page2{ 
+        width:100vw;
+        height: 100vh;
+        margin: 20px;
+    }
+    #bg-img>img{ 
+        height: 200px;
+        z-index: 0;
+    }
+    #nav{ 
+        width:100vw;
+        height: 100vh;
+    }
+    a{ 
+        width:2vw;
+        height: 1vh;
+    }
+ }
